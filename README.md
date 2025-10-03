@@ -176,7 +176,7 @@ python -m src.inference.predict --input data/processed/sample.parquet --models m
 
 > Substitua o placeholder pelo link real do projeto:
 ```
-https://github.com/usuario/otimizacao-qualidade-leite
+https://github.com/usuario/otimizacao-qualidade-leite](https://github.com/AntonioUamba/Qualidade-do-Leite.git)
 ```
 
 ---
