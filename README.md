@@ -106,7 +106,7 @@ O processo segue o **CRISP-DM**, da compreensão do negócio até a implantaçã
 ### 2) Instalação
 
 ```bash
-git clone https://github.com/usuario/otimizacao-qualidade-leite.git
+git clone [https://github.com/usuario/otimizacao-qualidade-leite.git](https://github.com/AntonioUamba/Qualidade-do-Leite.git)
 cd otimizacao-qualidade-leite
 python -m venv .venv
 # Windows
@@ -176,7 +176,7 @@ python -m src.inference.predict --input data/processed/sample.parquet --models m
 
 > Substitua o placeholder pelo link real do projeto:
 ```
-https://github.com/usuario/otimizacao-qualidade-leite](https://github.com/AntonioUamba/Qualidade-do-Leite.git)
+[https://github.com/usuario/otimizacao-qualidade-leite](https://github.com/AntonioUamba/Qualidade-do-Leite.git)
 ```
 
 ---
