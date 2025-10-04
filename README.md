@@ -8,7 +8,7 @@
 
 ## 📌 Visão Geral
 
-A qualidade do leite impacta diretamente o valor nutricional e econômico do produto. Este projeto aplica **modelos de regressão** para estimar os componentes **DailyFat_P** (gordura diária) e **DailyProtein_P** (proteína diária) a partir de variáveis zootécnicas e de produção.  
+A qualidade do leite impacta diretamente o valor nutricional e econômico do produto. Este projeto aplica **modelos de regressão Linear** para estimar os componentes **DailyFat_P** (gordura diária) e **DailyProtein_P** (proteína diária) a partir de variáveis zootécnicas e de produção.  
 O processo segue o **CRISP-DM**, da compreensão do negócio até a implantação experimental.
 
 ---
@@ -24,7 +24,7 @@ O processo segue o **CRISP-DM**, da compreensão do negócio até a implantaçã
 
 ## 🗂️ Dataset
 
-- Arquivo principal: `milk_sessions.csv` (os dados pode ser encontrado nesse repositorio:https://github.com/nitaytech/ActiveLearningForRegression/tree/main/data)
+- Arquivo principal: `milk_sessions.csv`
 - Período observado: janeiro a abril (conforme base).  
 - Divisão: **treino** e **teste** (proporções típicas 80/20 ou próximas).
 
@@ -88,6 +88,20 @@ O processo segue o **CRISP-DM**, da compreensão do negócio até a implantaçã
 
 ---
 
+
+---
+## 📈 Comclusão 
+
+Os modelos preditivos desenvolvidos apresentaram
+bom desempenho e fornecem uma base sólida para a tomada de decisões visando a
+otimização da produção leiteira.
+A compreensão dos fatores que influenciam os níveis de gordura e proteína no leite,
+juntamente com a capacidade de prever esses componentes, representa um avanço
+significativo para a indústria de laticínios. As recomendações propostas, baseadas nos
+insights obtidos, têm o potencial de contribuir para o aumento da rentabilidade dos
+produtores e para a melhoria da qualidade do leite fornecido aos consumidores.
+---
+
 ## ✅ Recomendações de Manejo
 
 - **Estratificar o rebanho** por número de lactações e **ajustar dieta** por estágio de lactação.  
@@ -96,72 +110,6 @@ O processo segue o **CRISP-DM**, da compreensão do negócio até a implantaçã
 
 ---
 
-## 🛠️ Como Reproduzir
-
-### 1) Pré-requisitos
-
-- Python **3.10+**
-- `pip` ou `conda`
-
-### 2) Instalação
-
-```bash
-git clone [https://github.com/usuario/otimizacao-qualidade-leite.git](https://github.com/AntonioUamba/Qualidade-do-Leite.git)
-cd otimizacao-qualidade-leite
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Linux/Mac
-# source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-### 3) Estrutura de Pastas (sugestão)
-
-```
-.
-├── data/
-│   ├── raw/                # milk_sessions.csv (original)
-│   └── processed/          # datasets pós-limpeza/split
-├── notebooks/              # EDA e experimentos
-├── src/
-│   ├── features/           # engenharia de atributos
-│   ├── models/             # treino, avaliação, persistência
-│   └── inference/          # predição com modelos salvos
-├── reports/
-│   ├── figures/            # gráficos (heatmaps, distribuições)
-│   └── metrics/            # MSE/R² por alvo
-├── README.md
-└── requirements.txt
-```
-
-### 4) Execução (exemplo)
-
-```bash
-# 1) Preparação dos dados
-python -m src.features.build_dataset --input data/raw/milk_sessions.csv --out data/processed/
-
-# 2) Treino
-python -m src.models.train --train data/processed/train.parquet --out models/
-
-# 3) Avaliação
-python -m src.models.evaluate --test data/processed/test.parquet --models models/ --report reports/metrics/
-
-# 4) Inferência (prever gordura e proteína)
-python -m src.inference.predict --input data/processed/sample.parquet --models models/ --out predictions.csv
-```
-
----
-
-## 🔭 Roadmap
-
-- [ ] Incluir **variáveis ambientais** (temperatura, estação, dieta detalhada).  
-- [ ] Testar **modelos regulares** (Lasso/Ridge) e **árvores** (RF, XGBoost).  
-- [ ] **Validação cruzada** estratificada por animal/lactação.  
-- [ ] **Explainability** (SHAP/Permutações).  
-- [ ] Painel simples (Streamlit) para uso por equipe de campo.
-
----
 
 ## 📚 Referências & Ferramentas
 
@@ -169,16 +117,14 @@ python -m src.inference.predict --input data/processed/sample.parquet --models m
 - **scikit-learn** (modelos e métricas)  
 - **pandas** (manipulação de dados)  
 - **matplotlib** / **seaborn** (visualização)
+- dataset do leite (https://github.com/nitaytech/ActiveLearningForRegression/tree/main/data)
 
 ---
 
-## 🔗 Repositório
-
-> Substitua o placeholder pelo link real do projeto:
-```
+## 🔗 Link no Github do Projeto
+'''
 https://github.com/AntonioUamba/Qualidade-do-Leite.git
 ```
 
----
 
 
