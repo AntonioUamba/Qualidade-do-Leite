@@ -181,23 +181,4 @@ python -m src.inference.predict --input data/processed/sample.parquet --models m
 
 ---
 
-## 📄 Licença
 
-Distribuído sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
-
----
-
-## ✍️ Como citar
-
-Se este repositório for útil em seu trabalho, por favor cite:
-
-```
-Autor. (2025). Otimização da Qualidade do Leite — Uma Abordagem CRISP-DM (versão X.Y). Repositório GitHub. Disponível em: https://github.com/usuario/otimizacao-qualidade-leite
-```
-
----
-
-## 🤝 Agradecimentos
-
-- Comunidade de produtores e técnicos envolvidos.  
-- Equipes acadêmica e de campo que apoiaram coleta e validação.  
