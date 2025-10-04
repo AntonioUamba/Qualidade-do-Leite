@@ -24,7 +24,7 @@ O processo segue o **CRISP-DM**, da compreensão do negócio até a implantaçã
 
 ## 🗂️ Dataset
 
-- Arquivo principal: `milk_sessions.csv`  
+- Arquivo principal: `milk_sessions.csv` (os dados pode ser encontrado nesse repositorio:https://github.com/nitaytech/ActiveLearningForRegression/tree/main/data)
 - Período observado: janeiro a abril (conforme base).  
 - Divisão: **treino** e **teste** (proporções típicas 80/20 ou próximas).
 
