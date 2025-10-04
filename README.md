@@ -89,18 +89,10 @@ O processo segue o **CRISP-DM**, da compreensão do negócio até a implantaçã
 ---
 
 
----
 ## 📈 Comclusão 
 
-Os modelos preditivos desenvolvidos apresentaram
-bom desempenho e fornecem uma base sólida para a tomada de decisões visando a
-otimização da produção leiteira.
-A compreensão dos fatores que influenciam os níveis de gordura e proteína no leite,
-juntamente com a capacidade de prever esses componentes, representa um avanço
-significativo para a indústria de laticínios. As recomendações propostas, baseadas nos
-insights obtidos, têm o potencial de contribuir para o aumento da rentabilidade dos
-produtores e para a melhoria da qualidade do leite fornecido aos consumidores.
----
+Os modelos preditivos desenvolvidos apresentaram bom desempenho e fornecem uma base sólida para a tomada de decisões visando a otimização da produção leiteira. A compreensão dos fatores que influenciam os níveis de gordura e proteína no leite, juntamente com a capacidade de prever esses componentes, representa um avanço significativo para a indústria de laticínios. As recomendações propostas, baseadas nos insights obtidos, têm o potencial de contribuir para o aumento da rentabilidade dos produtores e para a melhoria da qualidade do leite fornecido aos consumidores.
+
 
 ## ✅ Recomendações de Manejo
 
