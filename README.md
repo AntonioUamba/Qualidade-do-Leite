@@ -114,9 +114,9 @@ Os modelos preditivos desenvolvidos apresentaram bom desempenho e fornecem uma b
 ---
 
 ## 🔗 Link no Github do Projeto
-'''
+
 https://github.com/AntonioUamba/Qualidade-do-Leite.git
-```
+
 
 
 
